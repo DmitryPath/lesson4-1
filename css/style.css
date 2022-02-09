@@ -1,0 +1,154 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@font-face {
+	font-family: "StalinistOne";
+	src: url("../fonts/StalinistOne-Regular.woff2") format("woff2"), url("../fonts/StalinistOne-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Comforter";
+	src: url("../fonts/Comforter-Regular.woff2") format("woff2"), url("../fonts/Comforter-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.header {
+	color: rgb(9, 131, 35);
+	font-family: "Roboto Condensed", "Arial", sans-serif;
+	font-style: italic;
+	font-size: 50px;
+	text-align: right;
+	text-shadow: 10px 20px 20px rgb(255, 196, 0), -20px -30px 30px rgb(55, 0, 255);
+}
+/* меню наследует свойства заголовка!!!!! ПРИ НАДОБНОСТИ ПОПРАВИТЬ!!!!!!! */
+.menu {
+	color: rgb(218, 12, 12);
+	font-family: "Comforter", cursive;
+	font-weight: 400;
+	text-align: left;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 10px -30px 20px rgb(255, 0, 128), 10px 30px 20px rgb(255, 0, 128);
+}
+.head {
+	color: yellow;
+	font-family: "StalinistOne", "Arial", cursive;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	/* текс декоейшн не применился, почему? ИСПРАВИТЬ!!! */
+	text-shadow: 10px 20px 20px blue;
+}
+.block span {
+	color: red;
+	font-family: "StalinistOne", "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+}
+.first {
+	color: saddlebrown;
+	font-family: "Roboto Condensed", "Arial", sans-serif;
+	font-size: 25px;
+	text-decoration: overline;
+	text-align: right;
+	text-shadow: -10px -20px 20px blue, 10px 20px 20px rgb(0, 174, 255);
+}
+.proc {
+	color: goldenrod;
+	font-family: "Roboto Condensed", "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: justify;
+	text-decoration: underline;
+	letter-spacing: 5px;
+}
+.line {
+	color: rgb(230, 209, 23);
+	font-family: "Comforter", cursive;
+	font-weight: 400;
+	font-size: 35px;
+	text-align: right;
+	text-decoration: underline;
+	text-shadow: -10px 5px 5px rgb(29, 29, 138);
+}
+#inside {
+	color: green;
+	font-family: "Lobster", cursive;
+	font-size: 400px;
+	font-size: 21px;
+	text-align: left;
+	word-spacing: 10px;
+	text-transform: lowercase;
+	text-shadow: -10px 5px 20px rgb(16, 224, 120);
+}
+#kamera {
+	color: rgba(245, 28, 12, 0.884);
+	font-family: "Amatic SC", cursive;
+	font-size: 700px;
+	font-size: 30px;
+	text-align: left;
+	text-shadow: -10px -20px 20px rgb(8, 233, 57), 10px 20px 20px rgb(171, 17, 231);
+}
+.string1 {
+	color: greenyellow;
+	font-family: "Kelly Slab", cursive;
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-align: right;
+	text-shadow: 8px -5px 8px rgb(6, 150, 20), 6px 8px 10px red;
+}
+#sim {
+	color: rgba(245, 28, 12, 0.884);
+	font-family: "Amatic SC", cursive;
+	font-weight: 400;
+	font-size: 50px;
+	text-decoration: line-through;
+	font-size: 40px;
+	text-align: justify;
+	text-shadow: 30px 30px 20px rgb(235, 12, 216), 10px 20px 20px rgb(74, 9, 255), -30px -20px 30px rgb(30, 161, 184);
+}
+#klient {
+	color: blueviolet;
+	font-family: "Kelly Slab", cursive;
+	font-weight: 400;
+	font-size: 22px;
+	text-decoration: underline;
+	text-align: justify;
+	letter-spacing: 10px;
+}
+.string {
+	color: pink;
+	font-family: "Press Start 2P", cursive;
+	font-weight: 400;
+	font-size: 35px;
+	text-decoration: underline;
+	text-align: justify;
+	text-shadow: -10px -15px 100px rgb(107, 83, 83), 10px 15px 100px rgb(9, 132, 204);
+}
+#klient2 {
+	color: white;
+	font-family: "Rubik Mono One", sans-serif;
+	font-weight: 400;
+	font-size: 35px;
+	text-align: left;
+	text-shadow: 10px 20px 20px blue, 5px -10px 10px rgb(21, 255, 0), -10px -15px 20px rgb(241, 4, 4);
+}
+.klient3 {
+	color: chocolate;
+	font-family: "StalinistOne", "Arial", sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	text-align: right;
+}
+.footer {
+	color: green;
+	font-family: "Comforter", cursive;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 20px;
+	text-transform: capitalize;
+}
